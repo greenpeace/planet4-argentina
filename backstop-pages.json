@@ -4,19 +4,25 @@
       "label": "Planet4 Argentina act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/involucrate/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1
     },
     {
       "label": "Planet4 Argentina explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/campanas/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1
     },
     {
       "label": "Planet4 Argentina privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/politica-privacidad/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1
+    },
+    {
+      "label": "Planet4 Argentina search page",
+      "url": "https://APP_HOSTNAME/APP_HOSTPATH/?s=océanos",
+      "delay": 3000,
+      "misMatchThreshold": 1
     }
   ]
 }
