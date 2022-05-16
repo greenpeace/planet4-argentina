@@ -3,7 +3,7 @@
     "description": "Greenpeace P4 Argentina",
     "license": "MIT",
     "require": {
-        "greenpeace/planet4-child-theme-argentina" : "dev-main"
+        "greenpeace/planet4-child-theme-argentina" : "dev-fix-read-more-text-from-covers-block"
     },
     "scripts": {
         "core:language": "wp language core install es_AR; wp language core activate es_AR",
