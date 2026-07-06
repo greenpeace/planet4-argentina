@@ -6,9 +6,11 @@
         "greenpeace/planet4-child-theme-argentina" : "dev-main"
     },
     "scripts": {
-        "core:language": "wp language core install es_AR; wp site switch-language es_AR",
+        "core:language1": "wp language core install es_AR --debug",
+        "core:language2": "wp site switch-language es_AR --debug",
         "site:custom": [
-            "@core:language"
+            "@core:language1",
+            "@core:language2"
         ]
 
     }
